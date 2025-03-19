@@ -37,7 +37,7 @@ const CTASection = () => {
       <div className="container mx-auto relative">
         <div 
           className={cn(
-            "relative z-10 bg-gradient-to-br from-planiar-600 to-planiar-800 rounded-3xl p-10 md:p-16 shadow-2xl overflow-hidden",
+            "relative z-10 bg-gradient-to-br from-planiar-600 to-planiar-900 rounded-3xl p-10 md:p-16 shadow-2xl overflow-hidden",
             "transform transition-all duration-1000 opacity-0 translate-y-10",
             isVisible && "opacity-100 translate-y-0"
           )}

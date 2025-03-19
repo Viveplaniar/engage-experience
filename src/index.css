@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 199 89% 48%;
+    --primary: 270 92% 65%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 270 60% 95%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 270 60% 96%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 199 89% 48%;
+    --ring: 270 92% 65%;
 
     --radius: 0.75rem;
   }
@@ -48,7 +48,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 199 89% 48%;
+    --primary: 270 92% 65%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -138,6 +138,19 @@
   
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+  }
+  
+  /* New classes for the Planiar purple theme */
+  .bg-planiar-gradient-light {
+    @apply bg-gradient-to-b from-planiar-100 to-planiar-200;
+  }
+  
+  .bg-planiar-gradient-medium {
+    @apply bg-gradient-to-b from-planiar-300 to-planiar-400;
+  }
+  
+  .bg-planiar-gradient-dark {
+    @apply bg-gradient-to-b from-planiar-600 to-planiar-900;
   }
   
   /* Animations */
